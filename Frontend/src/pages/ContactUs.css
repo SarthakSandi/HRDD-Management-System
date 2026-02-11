@@ -1,0 +1,165 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .contact-page {
+    background: #f5f7fb;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 40px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0b4c7c;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  /* Banner */
+  .banner {
+    background: linear-gradient(90deg, #0b4c7c, #1572b6);
+    color: white;
+    padding: 50px 40px;
+  }
+  
+  .banner h2 {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+  
+  /* Cards */
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .card h3 {
+    background: #0b4c7c;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  /* Office Section */
+  .office-section {
+    background: #0b4c7c;
+    color: white;
+    padding: 60px 40px;
+  }
+  
+  .office-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .office-content {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .office-text {
+    max-width: 400px;
+  }
+  
+  .office-image img {
+    width: 420px;
+    border-radius: 10px;
+  }
+  /* Login Section */
+
+.login-section{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 20px;
+  flex-wrap: wrap;
+}
+
+.system-box{
+  background: #0b4c7c;
+  color: white;
+  width: 350px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.system-box h2{
+  margin-bottom: 15px;
+}
+
+.login-box{
+  background: white;
+  width: 350px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.login-box h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-box input{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-submit-btn{
+  width: 100%;
+  padding: 12px;
+  background: #0b4c7c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-submit-btn:hover{
+  background: #093b63;
+}
+
+  
